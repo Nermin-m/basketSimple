@@ -1,0 +1,19 @@
+.nav_menu{
+    display:flex;
+    background:red;
+    margin:0;
+   padding: 30px;
+    column-gap: 50px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.nav_menu li{
+    font-size: 21px;
+    font-family: cursive;
+    text-transform: capitalize;
+    list-style: none;
+    color: white;
+}
+.nav_menu li:nth-child(1){
+    font-size: 30px;
+}

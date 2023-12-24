@@ -1,0 +1,36 @@
+.allboxs{
+    display: flex;
+    flex-direction: row;
+}
+.boxs img{
+    width: 200px;
+    height: 180px;
+}
+.boxs{
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f2eeee;
+    box-shadow: 2px 3px 4px gray;
+    height: auto;
+}
+.buttons{
+    display: flex;
+    height: 30px;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+button{
+    padding: 0px 25px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #ee0f0f;
+    border: none;
+    cursor: pointer;
+    color: #f2eeee;
+
+}
